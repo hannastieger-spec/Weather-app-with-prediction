@@ -73,7 +73,7 @@ function displayForecast(response) {
   response.data.daily.forEach(function (day, index) {
     let iconUrl = day.condition.icon_url;
     iconUrl = iconUrl.replace("http://", "https://");
-    if (index < 5) {
+    if (index > 0 && index < 6) {
       forecastHtml =
         forecastHtml +
         `<div class="weather-forecast-day">
