@@ -91,9 +91,11 @@ a {
   margin-top: 20px;
   color: #878886;
 }
-.weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+.weather-forecast-icon img {
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
 }
 .weather-forecast-temperatures {
   text-align: center;
